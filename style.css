@@ -27,14 +27,14 @@ body {
 }
 
 .container,
-.form__input,
-.form__button {
+.form_input,
+.form_button {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.form--hidden {
+.form-hidden {
     display: none;
 }
 
@@ -46,29 +46,29 @@ body {
     margin-bottom: 0;
 }
 
-.form__title {
+.form_title {
     margin-bottom: 2rem;
     text-align: center;
 }
 
-.form__message {
+.form_message {
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.form__message--success {
+.form_message-success {
     color: var(--color-success)
 }
 
-.form__message--error {
+.form_message-error {
     color: var(--color-error);
 }
 
-.form__input-group {
+.form_input-group {
     margin-bottom: 1rem;
 }
 
-.form__input {
+.form_input {
     display: block;
     width: 100%;
     padding: 0.75rem;
@@ -79,22 +79,22 @@ body {
     transition: backgroud 0.2s, border-color 0.2s;
 }
 
-.form__input:focus {
+.form_input:focus {
     border-color: var(--color-primary);
 }
 
-.form__input--error {
+.form_input-error {
     color: var(--color-error);
     border-color: var(--color-error);
 }
 
-.form__input-error-message {
+.form_input-error-message {
     margin-top: 0.5rem;
     font-size: 0.85rem;
     color: var(--color-error);
 }
 
-.form__button {
+.form_button {
     width: 100%;
     padding: 1rem 2rem;
     font-weight: bold;
@@ -107,25 +107,25 @@ body {
     background: var(--color-primary);
 }
 
-.form__button:hover {
+.form_button:hover {
     background: var(--color-primary-dark);
 }
 
-.form__button:active {
+.form_button:active {
     transform: scale(0.98);
 }
 
-.form__text {
+.form_text {
     text-align: center;
 }
 
-.form__link {
+.form_link {
     color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
 }
 
-.form__link:hover {
+.form_link:hover {
     text-decoration: underline;
 }
 
